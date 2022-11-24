@@ -1,11 +1,15 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* Var */
 
 :root {
-    --principal: #E5E5E5;
-    --secondary: #354F52;
-    --tertiary: #bfab99;
-    --background: #f2f2f2;
-    --font-primary: 'Inter', sans-serif;
+  --principal: #e5e5e5;
+  --secondary: #354f52;
+  --tertiary: #bfab99;
+  --background: #f2f2f2;
+  --font-primary: "Inter", sans-serif;
 }
 
 /* Normalize */
@@ -13,29 +17,46 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Globals */
 
 html {
-    background-color: var(--background);;
-    font-family: var(--font-primary);
-  }  
+  background-color: var(--background);
+  
+}
 
+body {
+    font-family: "Inter", sans-serif!important;
+    background-color: var(--background)!important;
+}
 
+/* NavBar */
+
+.navbar-toggler{
+  margin-right: 4vh!important;
+}
 
 .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 1.1em;
+  color: #000000;
+  font-size: 1.5rem;
+  line-height: 21px;
+  font-weight: 300;
 }
-.navbar .navbar-nav .nav-link:hover{
-    color: #808080;
-    /* border-bottom: 2px solid #000; */
-    text-decoration-line: underline;
+
+.logo{
+  height: 10vh;
 }
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+  /* border-bottom: 2px solid #000; */
+  text-decoration-line: underline;
+}
+
 @media only screen and (min-width: 992px) {
   .navbar {
     flex-direction: column;
@@ -47,23 +68,22 @@ html {
     padding: 0.5em 1em;
   }
 }
+
 .navbar .navbar-nav {
   margin-top: 0.5em;
+  margin-left: 4vh!important;
   /* border-top: 2px solid #000; */
-}
-
-.textarea {
-  display: inline-block;
-  height: 18px;
-  padding: 2px;
-  margin: 10px 0;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555;
-  vertical-align: middle;
 }
 
 .topBar {
   background-color: var(--tertiary);
   height: 6vh;
 }
+
+/* Carousel */
+
+.carousel {
+  margin-right: 4vh!important;
+  margin-left: 4vh!important;
+} 
+
