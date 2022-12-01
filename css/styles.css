@@ -34,6 +34,10 @@ body {
   background-color: var(--background) !important;
 }
 
+li{
+  list-style: none;
+}
+
 /* NavBar */
 
 .navbar-toggler {
