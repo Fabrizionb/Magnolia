@@ -167,3 +167,39 @@ h1 a {
   margin-top: 10px;
   color: var(--principal);
 }
+
+
+/* Footer */
+
+footer .footer__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: var(--tertiary);
+  align-items: center;
+  color:  var(--secondary); 
+}
+
+.footer__container span {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    align-items: flex-start;
+    padding: 0.3rem; 
+  }
+
+.footer__container .footer__redes {
+    padding: 1rem; 
+}
+
+.footer__container ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.chat {
+  position: fixed;
+  bottom: 0.62rem;
+  right: 1.25rem; 
+}
