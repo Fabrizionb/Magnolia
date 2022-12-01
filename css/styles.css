@@ -1,6 +1,6 @@
 /* Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Var */
 
@@ -10,6 +10,7 @@
   --tertiary: #bfab99;
   --background: #f2f2f2;
   --font-primary: "Inter", sans-serif;
+  --font-color-primary: #000000;
 }
 
 /* Normalize */
@@ -26,18 +27,17 @@
 
 html {
   background-color: var(--background);
-  
 }
 
 body {
-    font-family: "Inter", sans-serif!important;
-    background-color: var(--background)!important;
+  font-family: "Inter", sans-serif !important;
+  background-color: var(--background) !important;
 }
 
 /* NavBar */
 
-.navbar-toggler{
-  margin-right: 4vh!important;
+.navbar-toggler {
+  margin-right: 4vh !important;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -47,7 +47,7 @@ body {
   font-weight: 300;
 }
 
-.logo{
+.logo {
   height: 10vh;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .navbar .navbar-nav {
   margin-top: 0.5em;
-  margin-left: 4vh!important;
+  margin-left: 4vh !important;
   /* border-top: 2px solid #000; */
 }
 
@@ -83,7 +83,87 @@ body {
 /* Carousel */
 
 .carousel {
-  margin-right: 4vh!important;
-  margin-left: 4vh!important;
-} 
+  /* margin-right: 4vh!important;
+  margin-left: 4vh!important; */
+  max-width: 1220px;
+  max-height: 340px;
+  margin: auto;
+}
 
+/* Cards */
+
+section {
+  float: left;
+  width: 100%;
+  background: var(--background);
+  padding: 30px 0;
+}
+
+h1 {
+  float: left;
+  width: 100%;
+  color: #232323;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+h1 span {
+  font-family: "Libre Baskerville", serif;
+  display: block;
+  font-size: 45px;
+  text-transform: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+h1 a {
+  color: #131313;
+  font-weight: bold;
+}
+
+/*Profile Card 1*/
+
+.profile-card-1 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: var(--principal);
+  text-align: center;
+  height: 368px;
+  border: none;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease
+}
+
+.profile-card-1:hover {
+  transform: scale(1.05);
+}
+
+.profile-card-1 .background {
+  width: 100%;
+  vertical-align: top;
+  
+}
+
+.profile-card-1 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  background: rgba(25, 25, 25, .5);
+}
+
+
+.profile-card-1 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.profile-card-1 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  color: var(--principal);
+}
