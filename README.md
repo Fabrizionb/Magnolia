@@ -10,24 +10,25 @@ Información General
 
 * * *
 
-*  Magnolia Blanquería es parte de Proyecto Real de CoderHouse, integrado por los de alumnos destacados de los cursos de Community Manager, Diseño UX/UI, React JS  hayan quedado en el Top 10 de cada curso.
+*  Magnolia Blanquería es parte de Proyecto Real de CoderHouse, integrado por los de     alumnos destacados de los cursos de Community Manager, Diseño UX/UI, React JS  hayan quedado en el Top 10 de cada curso.
 
-*  Equipo de UX/UI:
-*  Florencia Miguez Oliverio [Behance](https://www.behance.net/florenciamiguez)
-*  Juan Ignacio Di Bennardo [Behance](https://www.behance.net/juanignacio6)
+ *  Equipo de UX/UI:
+    -
+    * Florencia Miguez Oliverio [Behance](https://www.behance.net/florenciamiguez)
+    * Juan Ignacio Di Bennardo [Behance](https://www.behance.net/juanignacio6)
 
 *  Equipo de Desarrollo:
-*  Andrea León [GitHub](https://github.com/AndreaLeonFandinoE)
-*  Fabrizio Bertolo [GitHub](https://www.behance.net/juanignacio6)
+    -
+    * Andrea León [GitHub](https://github.com/AndreaLeonFandinoE)
+    * Fabrizio Bertolo [GitHub](https://www.behance.net/juanignacio6)
 
 *  Equipo de Community Manager:
-*  Sofia Barcelone [GitHub]()
+    -
+    * Sofia Barcelone [GitHub]()
 
 
-
-
-*  
-*  Link al [Demo](https://fabrizionb.github.io/Magnolia/)
+  Link a la [Demo](https://fabrizionb.github.io/Magnolia/)
+  =  
 
 Tecnologías usadas
 -----------------
