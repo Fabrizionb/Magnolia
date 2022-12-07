@@ -65,6 +65,7 @@ li {
   .navbar {
     flex-direction: column;
   }
+
   /* .navbar .navbar-nav {
     border-bottom: 2px solid #000;
   } */
@@ -83,16 +84,17 @@ li {
   background-color: var(--tertiary);
   height: 6vh;
 }
+
 /* NavBar End*/
 
 /* Carousel Start*/
 
-.carousel {
-  /* margin-right: 4vh!important;
-  margin-left: 4vh!important; */
+/*.carousel {
+  margin-right: 4vh!important;
+  margin-left: 4vh!important; 
   max-width: 1220px;
-  max-height: 340px;
-  margin: auto;
+  max-height: 340px; 
+  margin: auto; 
 }
 /* Carousel End*/
 
@@ -112,6 +114,7 @@ section h1 {
   margin-bottom: 30px;
   font-size: 14px;
 }
+
 section h1 span {
   display: block;
   font-size: 45px;
@@ -120,6 +123,7 @@ section h1 span {
   margin-top: 30px;
   font-weight: 700;
 }
+
 section h1 a {
   color: #131313;
   font-weight: bold;
@@ -155,6 +159,15 @@ section h1 a {
   position: absolute;
   left: 0;
   top: 30%;
+
+}
+
+.profile-card-1 .card-content:hover {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 30%;
   background: rgba(25, 25, 25, 0.5);
 }
 
@@ -170,6 +183,7 @@ section h1 a {
   margin-top: 10px;
   color: var(--principal);
 }
+
 /* Cards End */
 
 /* Nostros Start*/
@@ -210,6 +224,7 @@ footer .footer__container {
   bottom: 0.62rem;
   right: 1.25rem;
 }
+
 /* Footer End */
 
 .imageBuy {
