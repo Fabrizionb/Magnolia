@@ -34,7 +34,7 @@ body {
   background-color: var(--background) !important;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -113,7 +113,7 @@ section h1 {
   font-size: 14px;
 }
 section h1 span {
-    display: block;
+  display: block;
   font-size: 45px;
   text-transform: none;
   margin-bottom: 20px;
@@ -138,7 +138,7 @@ section h1 a {
   border: none;
   margin-bottom: 15px;
   transition: transform 0.3s ease;
-  }
+}
 
 .profile-card-1:hover {
   transform: scale(1.05);
@@ -147,7 +147,6 @@ section h1 a {
 .profile-card-1 .background {
   width: 100%;
   vertical-align: top;
-  
 }
 
 .profile-card-1 .card-content {
@@ -156,9 +155,8 @@ section h1 a {
   position: absolute;
   left: 0;
   top: 30%;
-  background: rgba(25, 25, 25, .5);
+  background: rgba(25, 25, 25, 0.5);
 }
-
 
 .profile-card-1 h2 {
   margin: 0 0 5px;
@@ -176,10 +174,7 @@ section h1 a {
 
 /* Nostros Start*/
 
-
-
 /* Nostros end*/
-
 
 /* Footer Start*/
 
@@ -189,19 +184,19 @@ footer .footer__container {
   justify-content: space-around;
   background-color: var(--tertiary);
   align-items: center;
-  color:  var(--secondary); 
+  color: var(--secondary);
 }
 
 .footer__container span {
-    display: flex;
-    flex-flow: column wrap;
-    text-align: left;
-    align-items: flex-start;
-    padding: 0.3rem; 
-  }
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+  align-items: flex-start;
+  padding: 0.3rem;
+}
 
 .footer__container .footer__redes {
-    padding: 1rem; 
+  padding: 1rem;
 }
 
 .footer__container ul {
@@ -213,6 +208,28 @@ footer .footer__container {
 .chat {
   position: fixed;
   bottom: 0.62rem;
-  right: 1.25rem; 
+  right: 1.25rem;
 }
 /* Footer End */
+
+.imageBuy {
+  border-radius: 15px;
+}
+
+.active {
+  color: #bfab99 !important;
+}
+
+.image2 {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+}
