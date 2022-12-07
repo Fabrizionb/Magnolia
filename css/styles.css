@@ -258,3 +258,24 @@ footer .footer__container {
 }
 
 /* Footer End */
+
+/* Comprar Start */ 
+.imageBuy {
+  border-radius: 15px;
+}
+
+.image2 {
+  display: none;
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+}
+/* Comprar End */ 
