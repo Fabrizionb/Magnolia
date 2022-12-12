@@ -24,7 +24,7 @@ Información General
 
 *  Equipo de Community Manager:
     -
-    * Sofia Barcelone [GitHub]()
+    * Sofia Barcelone [Behance](https://www.behance.net/sofibarcelone)
 
 
   Link a la [Demo](https://fabrizionb.github.io/Magnolia/)
