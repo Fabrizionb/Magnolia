@@ -235,6 +235,18 @@ section.categories {
 
 /* Nostros Start*/
 
+.title-nostros{
+line-height: 28.44px!important;
+font-weight: 700!important
+font-size: 1.5rem!important;
+}
+
+.text-nostros{
+  font-weight:400!important;
+  line-height: 23.7px!important;
+  font-size: 1.25rem!important;
+}
+
 /* Nostros end*/
 
 /* Footer Start*/
