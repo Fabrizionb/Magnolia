@@ -8,7 +8,7 @@
   --secondary: #354f52;
   --tertiary: #bfab99;
   --background: #f2f2f2;
-  
+
   --font-primary: "Rubik", sans-serif;
   --font-color-primary: #000000;
   --paleta-uno: #4c5943;
@@ -235,16 +235,15 @@ section.categories {
 
 /* Nostros Start*/
 
-.title-nostros{
-line-height: 28.44px!important;
-font-weight: 700!important
-font-size: 1.5rem!important;
+.title-nostros {
+  line-height: 28.44px !important;
+  font-weight: 700 !important font-size: 1.5rem !important;
 }
 
-.text-nostros{
-  font-weight:400!important;
-  line-height: 23.7px!important;
-  font-size: 1.25rem!important;
+.text-nostros {
+  font-weight: 400 !important;
+  line-height: 23.7px !important;
+  font-size: 1.25rem !important;
 }
 
 /* Nostros end*/
@@ -287,22 +286,48 @@ footer .footer__container {
 /* Footer End */
 
 /* Comprar Start */
-.imageBuy {
-  border-radius: 15px;
+
+.container-comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #D9D9D9;
+  max-width: 559px !important;
+  min-width: 320px;
 }
 
-.image2 {
-  display: none;
+.step-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-@media only screen and (max-width: 500px) {
-  .image1 {
-    display: none;
-  }
+.step-item img {
+  width: 120px;
+  height: auto;
+}
 
-  .image2 {
-    display: block;
-  }
+.step-item p {
+  width: 241px;
+  height: 72px;
+  left: 622px;
+  top: 245px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+.step-item {
+  justify-self: start;
+  align-self: center;
+  margin-bottom: 3vh !important;
+  margin-top: 3vh !important;
 }
 
 /* Comprar End */
