@@ -1,7 +1,7 @@
 /* Imports */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Var */
 
 :root {
@@ -9,8 +9,14 @@
   --secondary: #354f52;
   --tertiary: #bfab99;
   --background: #f2f2f2;
-  --font-primary: "Inter", sans-serif;
+  --font-primary: "Rubik", sans-serif;
   --font-color-primary: #000000;
+
+  --paleta-uno: #4c5943;
+  --paleta-dos: #f2b077;
+  --paleta-tres: #8c3d20;
+  --paleta-cuatro: #f2f2f2;
+  --paleta-cinco: #bfab99;
 }
 
 /* Normalize */
@@ -30,7 +36,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif !important;
+  font-family: var(--font-primary) !important;
   background-color: var(--background) !important;
 }
 
@@ -60,9 +66,14 @@ li {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #808080;
+  color: var(--paleta-cinco);
   /* border-bottom: 2px solid #000; */
   text-decoration-line: underline;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+  background-color: var(--paleta-cinco) !important;
 }
 
 @media only screen and (min-width: 992px) {
@@ -93,19 +104,17 @@ li {
 
 /* Carousel Start*/
 
-/*.carousel {
-  margin-right: 4vh!important;
-  margin-left: 4vh!important; 
-  max-width: 1220px;
-  max-height: 340px; 
-  margin: auto; 
+.carousel {
+  margin-right: 13vh !important;
+  margin-left: 13vh !important;
 }
+
 /* Carousel End*/
 
 /* Cards */
 
 section.categories {
-    width: 100%;
+  width: 100%;
   background: var(--background);
   padding: 30px 0;
 }
@@ -117,8 +126,7 @@ section.categories {
   position: relative;
   float: left;
   width: 100%;
-  margin: 15px 0;
-  padding-top: 100%;
+  padding-top: 70%;
   overflow: hidden;
 }
 
@@ -126,10 +134,11 @@ section.categories {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 12px !important;
 }
 
 .textbanner-image.overlay:after {
@@ -137,10 +146,10 @@ section.categories {
   top: 0;
   display: block;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background: #000;
   opacity: 0.3;
-  content: '';
+  content: "";
 }
 
 .textbanner-text {
@@ -149,10 +158,12 @@ section.categories {
   left: 50%;
   z-index: 9;
   width: 100%;
-  padding: 30px 20px;
-  color: white;
+  padding: 10px 20px;
+  color: var(--paleta-cuatro);
   transform: translate(-50%, -50%);
   box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.8;
 }
 
 .textbanner-image-background {
@@ -162,18 +173,20 @@ section.categories {
 }
 
 .textbanner-title {
-  margin-bottom: 15px;
-  font-size: 2vh;
-  font-weight: 700;
-  line-height: 36px;
+  font-size: 2.1vh;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  font-family: "Rubik";
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 2vh;
 }
 
 .textbanner-paragraph {
   display: -webkit-box;
   margin-bottom: 20px;
   overflow: hidden;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -182,7 +195,7 @@ section.categories {
 .textbanner-link {
   display: block;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .textbanner-image {
@@ -202,10 +215,10 @@ section.categories {
   transform: scale(1.03);
 
   -webkit-filter: brightness(80%);
-	-moz-filter: brightness(80%);
-	-o-filter: brightness(80%);
-	-ms-filter: brightness(80%);
-	filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 .textbanner-image.overlay:after {
@@ -216,7 +229,10 @@ section.categories {
   transition: all 0.8s ease;
 }
 
-
+.card-item {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.65, 0.65));
+  margin-bottom: 20px;
+}
 
 /* Nostros Start*/
 
@@ -259,14 +275,13 @@ footer .footer__container {
 
 /* Footer End */
 
-/* Comprar Start */ 
+/* Comprar Start */
 .imageBuy {
   border-radius: 15px;
 }
 
 .image2 {
   display: none;
-  
 }
 
 @media only screen and (max-width: 500px) {
@@ -278,4 +293,5 @@ footer .footer__container {
     display: block;
   }
 }
-/* Comprar End */ 
+
+/* Comprar End */
