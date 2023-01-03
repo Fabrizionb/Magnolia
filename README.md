@@ -59,7 +59,7 @@ Screenshots
 * * *
 <img src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1672761898/magnolia/screen1_c5wrii.png" height="600">
 <img src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1672761894/magnolia/screen3_bdzgza.png" height="600">
-<img src="ttps://res.cloudinary.com/dm01fzgtk/image/upload/v1672761894/magnolia/screen4_caq74q.png" height="600">
+<img src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1672761894/magnolia/screen4_caq74q.png" height="600">
 <img src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1672761894/magnolia/screen2_stmqz0.png" height="600">
 <img src="https://res.cloudinary.com/dm01fzgtk/image/upload/v1672761893/magnolia/screen5_ww1hut.png" height="600">
 
