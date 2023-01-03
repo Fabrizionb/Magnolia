@@ -1,7 +1,8 @@
 /* Imports */
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* Var */
+
+/* Variables Start */
 
 :root {
   --principal: #e5e5e5;
@@ -19,7 +20,9 @@
   --paleta-seis: #D9D9D9;
 }
 
-/* Normalize */
+/* Variables End */
+
+/* Normalize Start*/
 
 *,
 *::after,
@@ -29,7 +32,9 @@
   box-sizing: border-box;
 }
 
-/* Globals */
+/* Normalize End*/
+
+/* Globals Start*/
 
 html {
   background-color: var(--background);
@@ -43,6 +48,8 @@ body {
 li {
   list-style: none;
 }
+
+/* Globals End*/
 
 /* NavBar Start*/
 
@@ -74,19 +81,6 @@ li {
 .dropdown-item:hover {
   font-weight: bold;
   background-color: var(--paleta-cinco) !important;
-}
-
-@media only screen and (min-width: 992px) {
-  .navbar {
-    flex-direction: column;
-  }
-
-  /* .navbar .navbar-nav {
-    border-bottom: 2px solid #000;
-  } */
-  .navbar .nav-item {
-    padding: 0.5em 1em;
-  }
 }
 
 .navbar .navbar-nav {
@@ -121,7 +115,7 @@ section.categories {
 
 /* Cards End */
 
-/* Categorias */
+/* Categorias Index Start */
 .textbanner {
   position: relative;
   float: left;
@@ -234,11 +228,13 @@ section.categories {
   margin-bottom: 20px;
 }
 
+/* Categorias Index End */
+
 /* Nostros Start*/
 
 .title-nostros {
   line-height: 28.44px !important;
-  font-weight: 700 !important ;
+  font-weight: 700 !important;
   font-size: 1.5rem !important;
 }
 
@@ -267,14 +263,14 @@ footer .footer__container {
   text-align: left;
   align-items: flex-start;
   padding: 0.3rem;
-  
 
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  ;
 }
 
 .footer__container .footer__redes {
@@ -342,15 +338,15 @@ text-align: center;
 
 /* Comprar End */
 
-/* Contacto */
-  
+/* Contacto Start*/
+
 .contactanos {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: "contactanos__form contactanos__container";
   align-items: center;
   gap: 1rem;
-  margin: 3rem; 
+  margin: 3rem;
 }
 
 .contactanos__form {
@@ -360,7 +356,7 @@ text-align: center;
   gap: 0.63rem;
   padding: 1rem;
   border-radius: 0.43rem;
-  background-image: linear-gradient(to left, #354f52a6, #bfab99d0); 
+  background-image: linear-gradient(to left, #354f52a6, #bfab99d0);
 }
 
 .contactanos__container {
@@ -368,7 +364,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem; 
+  padding: 1rem;
 }
 
 .contactanos__container .contacto {
@@ -377,28 +373,61 @@ text-align: center;
   grid-template-areas: "contacto__img contacto__datos";
   text-align: center;
   align-items: center;
-  justify-items: center; 
+  justify-items: center;
 }
 
 .contactanos__container .contacto__img {
   grid-area: contacto__img;
   height: 20vh;
-  border-radius: 1rem; 
+  border-radius: 1rem;
 }
 
 .contactanos__container .contacto__datos {
-  grid-area: contacto__datos; 
+  grid-area: contacto__datos;
 }
 
-/* Productos */
+/* Contacto End*/
 
+/* Productos Start*/
 .bar {
   height: 9vh;
-  background-color: var(--paleta-seis) ;
-font-size: 4rem;
-font-weight: 500;
-line-height: 85px;
-letter-spacing: 0em;
-text-align: center;
-
+  background-color: var(--paleta-seis);
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: center;
 }
+
+/* Productos End*/
+
+/* Media queries Start */
+@media only screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .nav-item {
+    padding: 0.5em 1em;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1244px) {
+  .contenedor {
+    height: 100px !important;
+  }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+  .contenedor-n {
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1198px) {
+  .contenedor-n {
+    height: 100px !important;
+  }
+}
+
+/* Media queries End */
