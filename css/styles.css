@@ -72,15 +72,25 @@ li {
   height: 10vh;
 }
 
+.dropdown-menu {
+  margin-left: 2vh!important;
+}
+
+.dropdown-item{
+  margin-bottom: 1vh;
+} 
+#navbarSupportedContent > ul > li.nav-item.dropdown > ul > li:nth-child(5) > a{
+  margin-bottom: 0px;
+}
 .navbar .navbar-nav .nav-link:hover {
   color: var(--paleta-cinco);
   /* border-bottom: 2px solid #000; */
-  text-decoration-line: underline;
+  
 }
 
 .dropdown-item:hover {
   font-weight: bold;
-  background-color: var(--paleta-cinco) !important;
+  background-color: transparent !important;
 }
 
 .navbar .navbar-nav {
