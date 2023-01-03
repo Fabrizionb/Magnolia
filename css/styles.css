@@ -237,7 +237,8 @@ section.categories {
 
 .title-nostros {
   line-height: 28.44px !important;
-  font-weight: 700 !important font-size: 1.5rem !important;
+  font-weight: 700 !important ;
+  font-size: 1.5rem !important;
 }
 
 .text-nostros {
