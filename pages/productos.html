@@ -16,70 +16,110 @@
 </head>
 
 <body>
-    <header>
-      <div class="topBar">
-        <div class="container">
-          <div class="row-fluid">
-            <div class="span12 text-center font-small"></div>
-          </div>
+  <header class="sticky-top">
+    <div class="topBar">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span12 text-center font-small"></div>
         </div>
       </div>
-  
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f2f2f2">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="../public/img/logoMagnolia.png" /></a>
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../pages/productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/nosotros.html">Quiénes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/comprar.html">¿Cómo comprar?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Footer -->
-<footer>
-    <section class="footer__container">
-        
-        <span>Copyright 2020 - Magnolia Blanqueria
-            <span>Todos los derechos reservados.</span>
-        </span> 
-  
-        <div>
-          <h4>Síguenos</h4>
-            <ul>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-instagram.png" alt="instagram" ></a></li>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-facebook.png" alt="facebook"></a></li>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-twitter.png" alt="twitter"></a></li>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-linkedin.png" alt="linkedin"></a></li>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-youtube.png" alt="youtube"></a></li>
-                <li class="footer__redes"><a href=""><img src="../public/img/icons-tiktok.png" alt="tiktok"></a></li>
-            </ul>
-        </div>
-    </section>
-    
-    <div> <!--Chat-->
-        <a href="https://api.whatsapp.com/send?phone=541123862514&text=Me%20interesaria%20saber%20sobre" target="_blank"><img class="chat" src="./public/img/icons-whatsapp.png" alt="Chatea con nosotros"></a>
     </div>
-  </footer>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light "
+      style="background-color: #f2f2f2"
+    >
+      <a class="navbar-brand" href="../index.html"
+        ><img class="logo" src="../public/img/logoMagnolia.png"
+      /></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/dormitorio.html">Dormitorio</a></li>
+              <li><a class="dropdown-item" href="../pages/kids.html">Kids</a></li>
+              <li><a class="dropdown-item" href="../pages/cocina.html">Cocina</a></li>
+              <li><a class="dropdown-item" href="../pages/baño.html">Baño</a></li>
+              <li><a class="dropdown-item" href="../pages/living.html">Living</a></li>
+          </ul>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/nosotros.html">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/comprar.html">¿Cómo comprar?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <h1 id="dormitorio" class="mt-5 mb-5">Cat 1</h1>
+    <div style="height:500px;" class=""></div>
+    <h1 id="kids" class="mt-5 mb-5">Cat 2</h1>
+    <div style="height:500px;" class=""></div>
+    <h1 id="cocina" class="mt-5 mb-5">Cat 3</h1>
+    <div style="height:500px;" class=""></div>
+    <h1 id="baño" class="mt-5 mb-5">Cat 4</h1>
+    <div style="height:500px;" class=""></div>
+    <h1 id="living" class="mt-5 mb-5">Cat 5</h1>
+    <div style="height:500px;" class=""></div>
+  </section>
+
+<!-- Footer -->
+<footer>
+  <section class="footer__container">
+
+    <a class="navbar-brand" href="index.html"><img class="logo" src="../public/img/logoMagnolia.svg"/></a>
+
+    <div class="footer__redes-container mt-3">
+        <ul>
+          <li class="footer__redes"><span>Seguinos</span></li>
+          <li class="footer__redes"><a href=""><img src="../public/img/icons-instagram.png" alt="instagram" ></a></li>
+          <li class="footer__redes"><a href=""><img src="../public/img/icons-facebook.png" alt="facebook"></a></li>
+        </ul>
+    </div>
+
+    <span>Copyright Magnolia Blanqueria 2022</span> 
+
+  </section>
+  
+  <div>
+      <!--Chat-->
+      <a
+        href="https://api.whatsapp.com/send?phone=541123862514&text=Me%20interesaria%20saber%20sobre"
+        target="_blank"
+        ><img
+          class="chat"
+          src="../public/img/icons-whatsapp.png"
+          alt="Chatea con nosotros"
+      /></a>
+    </div>
+</footer>
   
     <!-- Cards end -->
     <!-- JavaScript Bundle with Popper -->

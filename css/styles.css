@@ -16,6 +16,7 @@
   --paleta-tres: #8c3d20;
   --paleta-cuatro: #f2f2f2;
   --paleta-cinco: #bfab99;
+  --paleta-seis: #D9D9D9;
 }
 
 /* Normalize */
@@ -266,6 +267,14 @@ footer .footer__container {
   text-align: left;
   align-items: flex-start;
   padding: 0.3rem;
+  
+
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+;
 }
 
 .footer__container .footer__redes {
@@ -332,3 +341,64 @@ footer .footer__container {
 }
 
 /* Comprar End */
+
+/* Contacto */
+  
+.contactanos {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "contactanos__form contactanos__container";
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem; 
+}
+
+.contactanos__form {
+  grid-area: contactanos__form;
+  display: flex;
+  flex-direction: column;
+  gap: 0.63rem;
+  padding: 1rem;
+  border-radius: 0.43rem;
+  background-image: linear-gradient(to left, #354f52a6, #bfab99d0); 
+}
+
+.contactanos__container {
+  grid-area: contactanos__container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; 
+}
+
+.contactanos__container .contacto {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "contacto__img contacto__datos";
+  text-align: center;
+  align-items: center;
+  justify-items: center; 
+}
+
+.contactanos__container .contacto__img {
+  grid-area: contacto__img;
+  height: 20vh;
+  border-radius: 1rem; 
+}
+
+.contactanos__container .contacto__datos {
+  grid-area: contacto__datos; 
+}
+
+/* Productos */
+
+.bar {
+  height: 9vh;
+  background-color: var(--paleta-seis) ;
+font-size: 4rem;
+font-weight: 500;
+line-height: 85px;
+letter-spacing: 0em;
+text-align: center;
+
+}
