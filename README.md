@@ -17,10 +17,8 @@ Landing page de un ecommerce real, creada con Html, Bootstrap y CSS.
 
 - Equipo de Desarrollo:
 
-  -
-
-  * Andrea León [GitHub](https://github.com/AndreaLeonFandinoE)
   * Fabrizio Bertolo [GitHub](https://www.behance.net/juanignacio6)
+  * Andrea León [GitHub](https://github.com/AndreaLeonFandinoE)
 
 - Equipo de Community Manager:
   -
