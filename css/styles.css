@@ -304,6 +304,9 @@ footer {
   padding: 1vh;
 }
 
+.footer-follow{
+  display: inline-block!important;
+}
 
 .footer_span {
 font-size: 20px;
