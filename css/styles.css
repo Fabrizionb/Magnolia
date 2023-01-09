@@ -258,7 +258,7 @@ section.categories {
 
 /* Footer Start*/
 
-footer .footer__container {
+/* footer .footer__container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -267,7 +267,7 @@ footer .footer__container {
   color: var(--secondary);
 }
 
-.footer__container span {
+.footer span {
   display: flex;
   flex-flow: column wrap;
   text-align: left;
@@ -291,12 +291,32 @@ footer .footer__container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-}
+} */
 
 .chat {
   position: fixed;
   bottom: 0.62rem;
   right: 1.25rem;
+}
+
+footer {
+  background-color: var(--tertiary);
+  padding: 1vh;
+}
+
+
+.footer_span {
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+white-space:nowrap
+}
+
+.logo_footer {
+  height: auto;
+  width: 350px;
 }
 
 /* Footer End */
